@@ -1,7 +1,5 @@
 FROM alpine
-
-MAINTAINER matthew
-
+MAINTAINER Matt McCabe
+WORKDIR /MyDockerDir
 RUN hello.py
-
 CMD ["hello"]
